@@ -107,7 +107,7 @@ onMounted(() => {
 
 <blockquote>Solving problems using computers not solving computer problems</blockquote>
 
-<h2> ✨ 주요 기능 및 사용법 ✨ </h2>
+<h2>주요 기능 및 사용법</h2>
 <p>
   이 에디터는 <mark>직관적인 사용성을 목표</mark>로 합니다. 원하는 텍스트를 마우스로 드래그하여 선택하면, 텍스트 서식을 바로 변경할 수 있는 메뉴가 나타납니다. 메뉴를 통해 <strong>굵게</strong>, <em>기울임</em>, <code>코드</code> 스타일을 간편하게 적용해 보세요.
 </p>
@@ -136,7 +136,7 @@ onMounted(() => {
   했습니다.
 </p>
 
-<h2>🌱 실패를 통한 성장 🌱 </h2>
+<h2>실패를 통한 성장</h2>
 <p>
   초기에는 WYSIWYG 에디터의 근본 원리를 이해하고자 <code>contenteditable</code> 속성과
   <code>Selection API</code> 같은 저수준(low-level) Web API를 직접 다루며 구현을
@@ -174,7 +174,7 @@ onMounted(() => {
     editorProps: {
       attributes: {
         class:
-          "prose prose-sm sm:prose lg:prose-lg xl:prose-xl mx-auto focus:outline-none",
+          "prose prose-sm sm:prose lg:prose-lg mx-auto focus:outline-none",
       },
     },
   });
