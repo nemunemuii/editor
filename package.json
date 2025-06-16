@@ -1,0 +1,40 @@
+{
+  "name": "my-app",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^12.5.4",
+    "@astrojs/vue": "^5.1.0",
+    "@tailwindcss/vite": "^4.1.10",
+    "@tiptap/extension-blockquote": "^2.14.0",
+    "@tiptap/extension-bold": "^2.14.0",
+    "@tiptap/extension-code": "^2.14.0",
+    "@tiptap/extension-code-block-lowlight": "^2.14.0",
+    "@tiptap/extension-color": "^2.14.0",
+    "@tiptap/extension-heading": "^2.14.0",
+    "@tiptap/extension-highlight": "^2.14.0",
+    "@tiptap/extension-horizontal-rule": "^2.14.0",
+    "@tiptap/extension-image": "^2.14.0",
+    "@tiptap/extension-italic": "^2.14.0",
+    "@tiptap/extension-link": "^2.14.0",
+    "@tiptap/extension-list-item": "^2.14.0",
+    "@tiptap/extension-placeholder": "^2.14.0",
+    "@tiptap/extension-text-style": "^2.14.0",
+    "@tiptap/pm": "^2.14.0",
+    "@tiptap/starter-kit": "^2.14.0",
+    "@tiptap/vue-3": "^2.14.0",
+    "astro": "^5.9.3",
+    "lowlight": "^3.3.0",
+    "tailwindcss": "^4.1.10",
+    "vue": "^3.5.16"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16"
+  }
+}

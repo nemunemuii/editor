@@ -1,0 +1,10 @@
+---
+import Editor from "../components/Editor.vue";
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+---
+
+<Layout>
+  <Header />
+  <Editor client:only />
+</Layout>
