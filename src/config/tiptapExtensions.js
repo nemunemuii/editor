@@ -30,10 +30,8 @@ const CustomBold = Bold.extend({
   },
 });
 
-// create a lowlight instance
 const lowlight = createLowlight(all);
 
-// you can also register languages
 lowlight.register("html", html);
 lowlight.register("css", css);
 lowlight.register("js", js);
