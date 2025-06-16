@@ -9,7 +9,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^12.5.4",
     "@astrojs/vue": "^5.1.0",
     "@tailwindcss/vite": "^4.1.10",
     "@tiptap/extension-blockquote": "^2.14.0",
