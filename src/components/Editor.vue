@@ -95,9 +95,6 @@ onMounted(() => {
 
 </p>
 
-
-<h1>LLM 시대를 위한 WYSIWYG Markdown 에디터</h1>
-
 <h2>프로젝트 소개 및 동기</h2>
 <p>
   이 프로젝트는 <strong
@@ -177,7 +174,7 @@ onMounted(() => {
     editorProps: {
       attributes: {
         class:
-          "prose prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-auto focus:outline-none",
+          "prose prose-sm sm:prose lg:prose-lg xl:prose-xl mx-auto focus:outline-none",
       },
     },
   });
@@ -197,9 +194,7 @@ watch(isEditable, (value) => {
 </script>
 
 <style>
-:root {
-  font-size: 0.8rem;
-}
+
 .bubble-menu {
   display: flex;
   background-color: #343a40;
@@ -237,32 +232,6 @@ watch(isEditable, (value) => {
 .editor-icon {
   width: 1rem;
   height: 1rem;
-}
-
-.ProseMirror h1,
-.ProseMirror h2,
-.ProseMirror h3 {
-  font-weight: 700;
-  line-height: 1.2;
-  color: #0e0e0e;
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
-}
-
-.ProseMirror h1 {
-  font-size: 2.25rem;
-}
-
-.ProseMirror h2 {
-  font-size: 1.75rem;
-}
-
-.ProseMirror h3 {
-  font-size: 1.25rem;
-}
-
-.ProseMirror p {
-  margin-bottom: 1em;
 }
 
 .my-custom-highlight {
