@@ -22,7 +22,6 @@ import css from "highlight.js/lib/languages/css";
 import js from "highlight.js/lib/languages/javascript";
 import ts from "highlight.js/lib/languages/typescript";
 import html from "highlight.js/lib/languages/xml";
-// load all languages with "all" or common languages with "common"
 import { all, createLowlight } from "lowlight";
 
 const CustomBold = Bold.extend({

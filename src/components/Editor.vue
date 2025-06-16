@@ -89,11 +89,16 @@ onMounted(() => {
     extensions: defaultExtensions,
     content: `
       <hr />
-<p>안녕하세요, 저는 허종호 입니다.</p>
+<p>안녕하세요, 저는 허종호 입니다.
+
+👋
+
+</p>
+
 
 <h1>LLM 시대를 위한 WYSIWYG Markdown 에디터</h1>
 
-<h2>🚀 프로젝트 소개 및 동기</h2>
+<h2>프로젝트 소개 및 동기</h2>
 <p>
   이 프로젝트는 <strong
     >'LLM이 생성하는 무한한 Markdown 콘텐츠를 어떻게 하면 가장 사용자 친화적으로
@@ -102,6 +107,20 @@ onMounted(() => {
   텍스트를 출력하는 모습에 깊은 인상을 받았고, AI가 생성한 정보를 사용자가 가장 편하게
   소비하고 편집할 수 있는 Markdown 에디터를 직접 구현해보고 싶었습니다.
 </p>
+
+<h2> ✨ 주요 기능 및 사용법 ✨ </h2>
+<p>
+  이 에디터는 <mark>직관적인 사용성을 목표</mark>로 합니다. 원하는 텍스트를 마우스로 드래그하여 선택하면, 텍스트 서식을 바로 변경할 수 있는 메뉴가 나타납니다. 메뉴를 통해 <strong>굵게</strong>, <em>기울임</em>, <code>코드</code> 스타일을 간편하게 적용해 보세요.
+</p>
+<p>
+  또한, 마크다운 단축키를 그대로 사용할 수 있습니다. 키보드로 빠르게 문서를 편집해 보세요.
+</p>
+<ul>
+  <li><code>**굵게**</code> 또는 <code>__굵게__</code> 입력 시: <strong>굵게</strong> 처리됩니다.</li>
+  <li><code>*기울임*</code> 또는 <code>_기울임_</code> 입력 시: <em>기울임</em> 처리됩니다.</li>
+  <li><code>인라인 코드</code> 입력 시: <code>인라인 코드</code>로 변환됩니다.</li>
+  <li>줄 시작 부분에 <code>##</code> 입력 후 스페이스바를 누르면 헤더로 변환됩니다.</li>
+</ul>
 
 <h2>기술적 결정 및 아키텍처</h2>
 <p>
@@ -118,7 +137,7 @@ onMounted(() => {
   했습니다.
 </p>
 
-<h2>🌱 실패를 통한 성장</h2>
+<h2>🌱 실패를 통한 성장 🌱 </h2>
 <p>
   초기에는 WYSIWYG 에디터의 근본 원리를 이해하고자 <code>contenteditable</code> 속성과
   <code>Selection API</code> 같은 저수준(low-level) Web API를 직접 다루며 구현을
@@ -151,7 +170,7 @@ onMounted(() => {
 </p>
 
      `,
-    autofocus: "start",
+    autofocus: 23,
     editable: isEditable.value,
     editorProps: {
       attributes: {
