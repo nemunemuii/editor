@@ -108,6 +108,8 @@ onMounted(() => {
   소비하고 편집할 수 있는 Markdown 에디터를 직접 구현해보고 싶었습니다.
 </p>
 
+<blockquote>Solving problems using computers not solving computer problems</blockquote>
+
 <h2> ✨ 주요 기능 및 사용법 ✨ </h2>
 <p>
   이 에디터는 <mark>직관적인 사용성을 목표</mark>로 합니다. 원하는 텍스트를 마우스로 드래그하여 선택하면, 텍스트 서식을 바로 변경할 수 있는 메뉴가 나타납니다. 메뉴를 통해 <strong>굵게</strong>, <em>기울임</em>, <code>코드</code> 스타일을 간편하게 적용해 보세요.
